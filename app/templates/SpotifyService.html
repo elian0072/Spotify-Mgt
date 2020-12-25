@@ -1,0 +1,9 @@
+{% extends "mainLayout.html" %}
+
+{% block content %}
+    {%if status_code == 200 %}
+    <!-- Button to Access spotify Service -->
+    {% else %}
+    <!-- Button to go back to main page -->
+    {% endif %}
+{%endblock%}
